@@ -3,6 +3,8 @@
 
 the function calculator can easily calculate different formulas.
 
+[colab](https://colab.research.google.com/github/InfinityGrtx/Function-calculator/blob/main/Jupyter%20notebook/function_calculator%20(1).ipynb)
+
 # availiable functions
 
 currently, you could use:
