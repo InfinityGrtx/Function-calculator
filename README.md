@@ -2,6 +2,7 @@
 # function calculator
 
 the function calculator can easily calculate different formulas.
+
 ![math-capable](https://user-images.githubusercontent.com/102982291/168146395-6d8bb04f-a43e-4ee2-8981-1e44c48ddcac.svg)
 
 [colab](https://colab.research.google.com/github/InfinityGrtx/Function-calculator/blob/main/Jupyter%20notebook/function_calculator%20(1).ipynb)
