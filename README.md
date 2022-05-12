@@ -37,5 +37,6 @@ to add a function, you first have to define the function. to do this, you need t
 
 # future plans
 the function calculator currently is more bare bones, and a first python project. 
-- a web interface
-- a larger database of formulas
+- a web application
+- a larger database of formulas (possibly seperate)
+- 
