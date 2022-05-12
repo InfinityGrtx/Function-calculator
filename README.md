@@ -31,3 +31,9 @@ to add a function, you first have to define the function. to do this, you need t
    then in the elif, you need to call the function you defined by doing addtwo(x). 
 
    then add the function name to the end of the print function that lists the function, give it the next availiable number. the number would be what the if function calls
+
+
+# future plans
+the function calculator currently is more bare bones, and a first python project. 
+- a web interface
+- a larger database of formulas
