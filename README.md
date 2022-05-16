@@ -16,17 +16,21 @@ the function calculator can easily calculate different formulas.
 # availiable functions
 
 currently, you could use:
-- pythagorean theorem
+- pythagorean theorem (function id: 1)
 
-- inverse pythagorean theorem
+- inverse pythagorean theorem (function id: 2)
 
-- intersecting chords
+- intersecting chords (function id: 3)
 
-- intersecting secants
+- intersecting secants (function id: 4)
 
-- intersecting tangent and chord
+- intersecting tangent and chord (function id: 5)
 
-- pyramid volume
+- pyramid volume (function id: 6)
+
+- translation (function id: 7)
+
+- dilation (function id:8)
 
 
 # adding a function
