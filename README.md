@@ -30,7 +30,9 @@ currently, you could use:
 
 - translation (function id: 7)
 
-- dilation (function id:8)
+- dilation (function id: 8)
+
+- circle area (function id: 9)
 
 
 # adding a function
