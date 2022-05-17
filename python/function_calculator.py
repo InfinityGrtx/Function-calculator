@@ -1,4 +1,3 @@
-
 import math
 
 def paragariumtheorem(a, b):
@@ -52,6 +51,8 @@ def dilation(k,x,y):
   print('your new y is: ')
   print(newy)
 
+
+
 def setupformula(formula):
   if formula == '1': 
     a = float(input('first value: '))
@@ -90,6 +91,6 @@ def setupformula(formula):
   else:
     print('Formula unknown')
 
-print('availiable functions are: 1: Pythagorean theorem, 2: Inverse Pythagorean theorem. 3: find intersecting chords, 4: find intersecting secants. 5: find intersecting tangent and chord. 6: pyramid volume. 7: 2d translation, 8: dialation')
+print('availiable functions are: 1: Pythagorean theorem, 2: Inverse Pythagorean theorem. 3: find intersecting chords, 4: find intersecting secants. 5: find intersecting tangent and chord. 6: pyramid volume. 7: 2d translation, 8: dilation')
 formula = input('enter function: ')
 setupformula(formula)
