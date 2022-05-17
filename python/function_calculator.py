@@ -1,5 +1,5 @@
 import math
-
+pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
 def paragariumtheorem(a, b):
   a2 = pow(a, 2)
   b2 = pow(b, 2)
@@ -51,7 +51,11 @@ def dilation(k,x,y):
   print('your new y is: ')
   print(newy)
 
-
+def circlearea(r, pi):
+  r2 = pow(r,2)
+  answer = pi * r2
+  print('your answer is')
+  print(answer)
 
 def setupformula(formula):
   if formula == '1': 
@@ -88,9 +92,12 @@ def setupformula(formula):
     y = float(input('the original y value is: '))
     k = float(input('the scale factor is: '))
     dilation(k,x,y)
+  elif formula == '9':
+    r = float(input('the radius of the circle is: '))
+    circlearea(r,pi)
   else:
     print('Formula unknown')
 
-print('availiable functions are: 1: Pythagorean theorem, 2: Inverse Pythagorean theorem. 3: find intersecting chords, 4: find intersecting secants. 5: find intersecting tangent and chord. 6: pyramid volume. 7: 2d translation, 8: dilation')
+print('availiable functions are: 1: Pythagorean theorem, 2: Inverse Pythagorean theorem. 3: find intersecting chords, 4: find intersecting secants. 5: find intersecting tangent and chord. 6: pyramid volume. 7: 2d translation, 8: dilation. 9: circle area')
 formula = input('enter function: ')
 setupformula(formula)
