@@ -5,57 +5,53 @@ def paragariumtheorem(a, b):
   b2 = pow(b, 2)
   c2 = a2 + b2
   c = math.sqrt(c2)
-  print('your answer is: ')
-  print(c)
+  print('your answer is %d' % c)
 
 def inversepythagoreantheorem(a, c):
   a2 = pow(a, 2)
   c2 = pow(c, 2)
   b2 = c2 - a2
   b = math.sqrt(b2)
-  print('Your answer is: ')
-  print(b)
+  print('Your answer is %d' % b)
 
 def findintersectingchords(x,y):
   z = x + y
   answer = z / 2
-  print(answer)
+  print('Your answer is %d' % answer)
 
 def findintersectingsecants(x,y):
   z = x - y
   answer = z / 2
-  print(answer)
+  print('your answer is %d' % answer)
 
 def findintersectingtangethord(x):
   y = x / 2
-  print(y)
+  print('your answer is %d' % y)
 
 def pyramidvolume(b, h):
   answer = b*h / 3
-  print('your answer is: ')
-  print(answer)
+  print('your answer is %d' % answer)
 
 def translation(x,y,x1,y1):
   newx = x + x1
   newy = y + y1
-  print("your new x is: ")
-  print(newx)
-  print("your new y is: ")
-  print(newy)
+  print("your new x is %d" % newx)
+  print("your new y is %d" % newy)
 
 def dilation(k,x,y):
   newx = x * k
   newy = y * k
-  print('your new x is: ')
-  print(newx)
-  print('your new y is: ')
-  print(newy)
+  print('your new x is %d' % newx)
+  print('your new y is %d' % newy)
 
 def circlearea(r, pi):
   r2 = pow(r,2)
   answer = pi * r2
-  print('your answer is')
-  print(answer)
+  print('your answer is %d' % answer)
+
+def findscalefacter(l1,l2):
+  answer = l1/l2
+  print('your answer is %d' % answer)
 
 def setupformula(formula):
   if formula == '1': 
@@ -95,9 +91,34 @@ def setupformula(formula):
   elif formula == '9':
     r = float(input('the radius of the circle is: '))
     circlearea(r,pi)
+  elif formula == '10':
+    l1 = float(input('side length of shape A: '))
+    l2 = float(input('side length of shape B: '))
+    findscalefacter(l1,l2)
   else:
     print('Formula unknown')
 
-print('availiable functions are: 1: Pythagorean theorem, 2: Inverse Pythagorean theorem. 3: find intersecting chords, 4: find intersecting secants. 5: find intersecting tangent and chord. 6: pyramid volume. 7: 2d translation, 8: dilation. 9: circle area')
-formula = input('enter function: ')
+"""# Availiable functions
+- pythagorean theorem (function id: 1)
+
+- inverse pythagorean theorem (function id: 2)
+
+- intersecting chords (function id: 3)
+
+- intersecting secants (function id: 4)
+
+- intersecting tangent and chord (function id: 5)
+
+- pyramid volume (function id: 6)
+
+- translation (function id: 7)
+
+- dilation (function id: 8)
+
+- circle area (function id: 9)
+
+- find scale factor (function id: 10)
+"""
+
+formula = input('enter function id: ')
 setupformula(formula)
