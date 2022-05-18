@@ -34,6 +34,8 @@ currently, you could use:
 
 - circle area (function id: 9)
 
+- Find Scale Factor (function id: 10)
+
 
 # adding a function
 
