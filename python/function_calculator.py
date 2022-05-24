@@ -53,6 +53,49 @@ def findscalefacter(l1,l2):
   answer = l1/l2
   print('your answer is %d' % answer)
 
+def rectangleprismarea(l,w,h):
+  answer = l*w*h
+  print('your answer is %d' % answer)
+
+def rectangleprismsa(l,w,h):
+  answer = 2 * l * w + 2 * l * h + 2 * w * h
+  print('your answer is %d' % answer)
+
+def pyramidsa(l,p,b):
+  answer =  l*p
+  answer = answer + b
+  answer = answer / 2
+  print('your answer is %d' % answer)
+
+def cylindervolume(pi,r,h):
+  r2 = pow(r,2)
+  answer = pi*r2*h
+  print('your anwser is %d' % answer)
+
+def cylindersa(pi, r,h):
+  r2 = pow(r,2)
+  answer = 2 * pi * r2 + 2 * pi * r * h
+  print('your answer is %d' % answer)
+
+def triprismvolume(b,h):
+  answer = b*h
+  print('your answer is %d' % answer)
+
+def triprismsa(h,p,b):
+  answer = h*p+2*b
+  print('your answer is %d' % answer)
+
+def conevolume(pi,r,h):
+  r2 = pow(r,2)
+  answer = pi * r2 * h/3
+  print("your answer is %d" % answer)
+
+def conesa(pi, r, l):
+  r2 = pow(r,2)
+  answer = pi*r2 + pi * r*l
+  print("your answer is %d" % answer)
+
+
 def setupformula(formula):
   if formula == '1': 
     a = float(input('first value: '))
@@ -95,6 +138,46 @@ def setupformula(formula):
     l1 = float(input('side length of shape A: '))
     l2 = float(input('side length of shape B: '))
     findscalefacter(l1,l2)
+  elif formula == '11':
+    l = float(input('the length is: '))
+    w = float(input('the width is: '))
+    h = float(input('the height is: '))
+    rectangleprismarea(l,w,h)
+  elif formula == '12':
+    l = float(input('the length is: '))
+    w = float(input('the width is: '))
+    h = float(input('the height is: '))
+    rectangleprismsa(l,w,h)
+  elif formula == '13':
+    l = float(input('the slant height is: '))
+    p = float(input('the base parimiter is: '))
+    b = float(input('the base area is: '))
+    pyramidsa(l,p,b)
+  elif formula == '14':
+    r = float(input('the radius is: '))
+    h = float(input('the height is: '))
+    cylindervolume(pi,r,h)
+  elif formula == '15':
+    r = float(input('the radius is: '))
+    h = float(input('the height is: '))
+    cylindersa(pi,r,h)
+  elif formula == '16':
+    b = float(input('the area of the base is: '))
+    h = float(input('the height is: '))
+    triprismvolume(b,h)
+  elif formula == '17':
+    h = float(input('the height is: '))
+    p = float(input(' the parimiter of the base is: '))
+    b = float(input('the area of the base is: '))
+    triprismsa(h,p,b)
+  elif formula == '18':
+    r = float(input('the radius is: '))
+    h = float(input('the height is: '))
+    conevolume(pi,r,h)
+  elif formula == '19':
+    r = float(input('the radius is: '))
+    l = float(input('the slant height is: '))
+    conesa(pi,r,l)
   else:
     print('Formula unknown')
 
@@ -118,6 +201,24 @@ def setupformula(formula):
 - circle area (function id: 9)
 
 - find scale factor (function id: 10)
+
+- find the volume of a rectangular prism (function id: 11)
+
+- find the surface area of a rectangular prism (function id: 12)
+
+- find the surface area of a pyramid (function id: 13)
+
+- find the volume of a cylinder (function id: 14)
+
+- find the surface area of a cylinder (function id: 15)
+
+- find the volume of a triangular prism (function id: 16)
+
+- find the surface area of a triangular prism (function id: 17)
+
+- find the volume of a cone (function id: 18)
+
+- find the surface area of a cone (function id: 19)
 """
 
 formula = input('enter function id: ')
