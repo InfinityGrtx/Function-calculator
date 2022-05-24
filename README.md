@@ -35,7 +35,23 @@ currently, you could use:
 - circle area (function id: 9)
 
 - Find Scale Factor (function id: 10)
+- find the volume of a rectangular prism (function id: 11)
 
+- find the surface area of a rectangular prism (function id: 12)
+
+- find the surface area of a pyramid (function id: 13)
+
+- find the volume of a cylinder (function id: 14)
+
+- find the surface area of a cylinder (function id: 15)
+
+- find the volume of a triangular prism (function id: 16)
+
+- find the surface area of a triangular prism (function id: 17)
+
+- find the volume of a cone (function id: 18)
+
+- find the surface area of a cone (function id: 19)
 
 # adding a function
 
