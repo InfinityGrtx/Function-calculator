@@ -35,6 +35,7 @@ currently, you could use:
 - circle area (function id: 9)
 
 - Find Scale Factor (function id: 10)
+
 - find the volume of a rectangular prism (function id: 11)
 
 - find the surface area of a rectangular prism (function id: 12)
@@ -52,6 +53,14 @@ currently, you could use:
 - find the volume of a cone (function id: 18)
 
 - find the surface area of a cone (function id: 19)
+
+- find the area of a triangle (function id: 20)
+
+- find the area of a rectangle (function id: 21)
+
+- find the perimiter of a rectangle (function id: 22)
+
+- find the area of a parallelagram (function id: 23)
 
 # adding a function
 

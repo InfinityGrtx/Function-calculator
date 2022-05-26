@@ -1,5 +1,6 @@
 import math
 pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
+
 def paragariumtheorem(a, b):
   a2 = pow(a, 2)
   b2 = pow(b, 2)
@@ -95,6 +96,21 @@ def conesa(pi, r, l):
   answer = pi*r2 + pi * r*l
   print("your answer is %d" % answer)
 
+def trianglearea(b,h):
+  answer = b*h/2
+  print("your answer is %d" % answer)
+
+def rectanglearea(l,w):
+  answer = l*w
+  print("your answer is %d" % answer)
+
+def rectangleperimiter(l,w):
+  answer = 2*l+2*w
+  print("your answer is %d" % answer)
+
+def parallelagramarea(b,h):
+  answer = b*h
+  print("your answer is %d" % answer)
 
 def setupformula(formula):
   if formula == '1': 
@@ -178,6 +194,22 @@ def setupformula(formula):
     r = float(input('the radius is: '))
     l = float(input('the slant height is: '))
     conesa(pi,r,l)
+  elif formula == '20':
+    b = float(input('the base is: '))
+    h = float(input('the height is: '))
+    trianglearea(b,h)
+  elif formula == '21':
+    l = float(input('the length is: '))
+    w = float(input('the width is: '))
+    rectanglearea(l,w)
+  elif formula == '22':
+    l = float(input('the length is: '))
+    w = float(input('the width is: '))
+    rectangleperimiter(l,w)
+  elif formula == '23':
+    b = float(input('the base is: '))
+    h = float(input('the height is: '))
+    parallelagramarea(b,h)
   else:
     print('Formula unknown')
 
@@ -219,6 +251,14 @@ def setupformula(formula):
 - find the volume of a cone (function id: 18)
 
 - find the surface area of a cone (function id: 19)
+
+- find the area of a triangle (function id: 20)
+
+- find the area of a rectangle (function id: 21)
+
+- find the perimiter of a rectangle (function id: 22)
+
+- find the area of a parallelagram (function id: 23)
 """
 
 formula = input('enter function id: ')
