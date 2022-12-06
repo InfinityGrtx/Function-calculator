@@ -62,6 +62,8 @@ currently, you could use:
 
 - find the area of a parallelagram (function id: 23)
 
+- use the quadratic formula ( function id: 24)
+
 # adding a function
 
 to add a function, you first have to define the function. to do this, you need to define how to solve the problem using floats. example:
